@@ -24,6 +24,15 @@ Z = X * Y
 #Este esta diseñado para Multiplicar
 
 Z = X / Y
-#Operador: "/", La salida sera: "2"
-#Este esta diseñado para dividir
+#Operador: "/", La salida sera: "2.0"
+#Este esta diseñado para dividir (Resultado FLOAT)
+
+Z = Y ** X
+#Operador: "%", La salida sera: "16"
+#Este hara una potencia entre los dos
+#(X = base, Y = Exponente)
+
+Z = X // Y
+#Operador "//", La salida sera: "2"
+#Este esta diseñado para dvividir (Resultado INT)
 ```
