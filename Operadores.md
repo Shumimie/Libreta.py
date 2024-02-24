@@ -8,11 +8,22 @@ Operadores Aritméticos:
 Estos toman dos variables de numeros (FLOAT y INT) para calcularlos con una operacion matematica
 ```py
 X = 2
-Y = 3
+Y = 4
 
 Z = X + Y
 print(Z)
-#Operador: "+", La salida sera: "5"
-Z = X + Y
-#Operador: "-", La Salida
+#Operador: "+", La salida sera: "6"
+#Este esta diseñado para sumar
+
+Z = Y - X
+#Operador: "-", La Salida sera: "2"
+#Este esta diseñado para Restar
+
+Z = X * Y
+#Operador: "*", La salida sera: "8"
+#Este esta diseñado para Multiplicar
+
+Z = X / Y
+#Operador: "/", La salida sera: "2"
+#Este esta diseñado para dividir
 ```
